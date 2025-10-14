@@ -1,0 +1,14 @@
+{
+  "name": "@repo/ui",
+  "version": "1.0.0",
+  "description": "Shared UI utilities and constants",
+  "main": "index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  }
+}
